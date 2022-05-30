@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".activity.PageDiartActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
     </application>
 
 </manifest>
